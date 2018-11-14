@@ -16,7 +16,31 @@
     <table>
         <tr><td>プロジェクト名</td><td><input size = "50" type = "text" name = "project" value = "<?= $projectName ?>" required></td></tr>
         <tr><td>見出し</td><td><input size = "50" type = "text" name = "title" value = "<?= $title ?>" required></td></tr>
-        <tr><td>募集スキル</td><td><textarea cols = "80" rows = "10" name = "skill"><?= $skill ?></textarea></td></tr>
+        <tr><td>募集スキル</td><td><select name = "skill1">
+                                        <option value = "" selected></option>
+                                        <option value = "プログラマ">プログラマ</option>
+                                        <option value = "ゲームエンジニア">ゲームエンジニア</option>
+                                        <option value = "電子工学">電子工学</option>
+                                        <option value = "グラフィックデザイン">グラフィックデザイン</option>
+                                        <option value = "サウンドクリエイト">サウンドクリエイト</option>
+                                </select>
+                                <select name = "skill2">
+                                        <option value = ""></option>
+                                        <option value = "プログラマ">プログラマ</option>
+                                        <option value = "ゲームエンジニア">ゲームエンジニア</option>
+                                        <option value = "電子工学">電子工学</option>
+                                        <option value = "グラフィックデザイン">グラフィックデザイン</option>
+                                        <option value = "サウンドクリエイト">サウンドクリエイト</option>
+                                </select>
+                                <select name = "skill3">
+                                        <option value = ""></option>
+                                        <option value = "プログラマ">プログラマ</option>
+                                        <option value = "ゲームエンジニア">ゲームエンジニア</option>
+                                        <option value = "電子工学">電子工学</option>
+                                        <option value = "グラフィックデザイン">グラフィックデザイン</option>
+                                        <option value = "サウンドクリエイト">サウンドクリエイト</option>
+                                </select>
+        </td></tr>
         <tr><td>プロジェクト詳細</td><td><textarea cols = "80" rows = "10" name = "detail"><?= $detail ?></textarea></td></tr>
         <tr><td>タグ</td><td><input size = "50" type = "text" name = "tag" value = "<?= $tag ?>"></td></tr>
     </table>
