@@ -11,6 +11,7 @@
 <table>
 性別<br>
 <select>
+<option value="">指定しない
 <option value="">男
 <option value="">女
 </select>
@@ -18,7 +19,7 @@
 
 職業<br>
 <select name='skill'>
-    <option value=''>
+    <option value=''>指定しない
     <option value='プログラマ'>プログラマ
     <option value='game'>ゲームエンジニア
     <option value='game'>電子工学
@@ -30,7 +31,7 @@
 
 スキル<br>
 <select name='skill'>
-    <option value=''>
+    <option value=''>指定しない
 <optgroup label='プログラマ'>
     <option value='IT'>C
     <option value='IT'>C++
