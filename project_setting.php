@@ -19,19 +19,19 @@
 コメント　　　　<br>
 <textarea rows="3" cols="30"></textarea><input type="submit" value="コメント投稿">
 <table>
-<tr align="left"><td>
-    <p><b>KawasakI</b><br>
-    ゲームと言えばシナリオライターが必要ではありませんか？</p>返信する
+<tr align="left"><td><p>
+    <img src="kwsk.png" align="left"><b>KawasakI</b><br>
+    ゲームと言えばシナリオライターが必要ではありませんか？</p>
     </td><tr align="left"><td>
-    <p>　　　　<b>神戸　電子　　　Kawasakiへの返信</b><br>
-    　　　　そうですね！ご意見ありがとうございます、募集メンバーに追加しておきます!</p>
+    <p><img src="kobedenshi.png" align="left"><b>神戸　電子</b><br>
+    <b><font color="paple">>>KawasakI</font></b>　　そうですね！ご意見ありがとうございます、募集メンバーに追加しておきます!</p>
 </td></tr>
 <tr align="left"><td>
-    <p><b>なつき</b><br>
+    <p><img src="natsuki.jpg" align="left"><b>なつき</b><br>
     グラフィックは背景、キャラクター等をすべて含めたものでしょうか？<br>
-    おそらく2人では難しいと思います</p>返信する
+    おそらく2人では難しいと思います</p>
     </td><tr align="left"><td>
-    <p>　　　<b>神戸　電子　　　なつきへの返信</b><br>
-    　　　グラフィックにも色々分野があるんですね。無知ですみません…何人くらい必要でしょうか？</p>
+    <p><img src="kobedenshi.png" align="left"><b>神戸　電子</b><br>
+    <b><font color="paple">>>なつき</font></b>　　グラフィックにも色々分野があるんですね。無知ですみません…何人くらい必要でしょうか？</p>
 </td></tr>
 </table>
