@@ -24,7 +24,7 @@
     ゲームと言えばシナリオライターが必要ではありませんか？</p>
     </td><tr align="left"><td>
     <p><img src="kobedenshi.png" align="left"><b>神戸　電子</b><br>
-    <b>>>KawasakI</font></b>　　そうですね！ご意見ありがとうございます、募集メンバーに追加しておきます!</p>
+    <b><font color="paple">>>KawasakI</font></b>　　そうですね！ご意見ありがとうございます、募集メンバーに追加しておきます!</p>
 </td></tr>
 <tr align="left"><td>
     <p><img src="natsuki.jpg" align="left"><b>なつき</b><br>
