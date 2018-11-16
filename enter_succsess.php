@@ -17,21 +17,25 @@
 <p>登録タグ：プログラマー、グラフィックデザイナー、サウンドクリエイター、ゲーム制作</p>
 <hr>
 コメント　　　　<br>
-<textarea rows="3" cols="30"></textarea><input type="submit" value="コメント投稿">
+<textarea rows="5" cols="50"></textarea><input type="submit" value="コメント投稿">
 <table>
-<tr align="left"><td><p>
-    <img src="kwsk.png" align="left"><b>KawasakI</b><br>
-    ゲームと言えばシナリオライターが必要ではありませんか？</p>
-    </td><tr align="left"><td>
-    <p><img src="kobedenshi.png" align="left"><b>神戸　電子</b><br>
-    <b><font color="paple">>>KawasakI</font></b>　　そうですね！ご意見ありがとうございます、募集メンバーに追加しておきます!</p>
-</td></tr>
 <tr align="left"><td>
-    <p><img src="natsuki.jpg" align="left"><b>なつき</b><br>
-    グラフィックは背景、キャラクター等をすべて含めたものでしょうか？<br>
-    おそらく2人では難しいと思います</p>
-    </td><tr align="left"><td>
-    <p><img src="kobedenshi.png" align="left"><b>神戸　電子</b><br>
+    <p><img src="kobedenshi.png" align="left"><b>4.神戸　電子</b><br>
     <b><font color="paple">>>なつき</font></b>　　グラフィックにも色々分野があるんですね。無知ですみません…何人くらい必要でしょうか？</p>
 </td></tr>
+<tr align="left"><td>
+    <p><img src="natsuki.jpg" align="left"><b>3.なつき</b><br>
+    グラフィックは背景、キャラクター等をすべて含めたものでしょうか？<br>
+    おそらく2人では難しいと思います</p>
+</td></tr>
+<tr align="left"><td>
+    <p><img src="kobedenshi.png" align="left"><b>2.神戸　電子</b><br>
+    <b><font color="paple">>>KawasakI</font></b>　　そうですね！ご意見ありがとうございます、募集メンバーに追加しておきます!</p>
+</td></tr>
+
+<tr align="left"><td><p>
+    <img src="kwsk.png" align="left"><b>1.KawasakI</b><br>
+    ゲームと言えばシナリオライターが必要ではありませんか？</p>
+</td></tr>
+
 </table>
