@@ -79,7 +79,7 @@
 
 <br>
 
-<input type="button" onclick="location.href='search_result.php'" value="検索">
+<input type="button" onclick="location.href='user_search_result.php'" value="検索">
 
 <body>
 </html>
