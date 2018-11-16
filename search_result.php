@@ -4,36 +4,37 @@
 <DOCTYPE html>
 <html lang="ja">
 <head>
-
 </head>
 <body>
 
-<table>
+<b>スキル: Java</b>で検索をかけました。<br><br>
+
+<table border="1">
 性別
 <select>
     <option value="">指定しない
     <option value="">男
     <option value="">女
-</select><br>
+</select>
 
-職業
-<select name='skill'>
+  職業
+<select name='job'>
     <option value=''>指定しない
-    <option value='プログラマ'>プログラマ
-    <option value='game'>ゲームエンジニア
-    <option value='game'>電子工学
+    <option value=''>プログラマ
+    <option value=''>ゲームエンジニア
+    <option value=''>電子工学
     <option value=''>グラフィックデザイン
-    <option value='game'>その他
-</select><br>
+    <option value=''>その他
+</select>
 
-スキル
+  スキル
 <select name='skill'>
     <option value=''>指定しない
 <optgroup label='プログラマ'>
     <option value='IT'>C
     <option value='IT'>C++
     <option value='IT'>C#
-    <option value='IT'>Java
+    <option value='IT' selected>Java
     <option value='IT'>PHP
     <option value='IT'>Ruby
 </optgroup>
@@ -53,8 +54,8 @@
     <option value='game'>その他
 </optgroup>
 </select>
-<br>
-活動可能時間帯
+
+  活動可能時間帯
 <select>
 <?php
     for ( $i = 0 ; $i <= 24 ; $i++ ) {
@@ -70,18 +71,26 @@
     }
 ?>
 </select>
+
+<br><br>
+<input type="button" onclick="location.href='search_result.php'" value="再検索">
 </table>
 
-<input type="button" onclick="location.href='search_result.php'" value="再検索">
-<br><br><br>
+<table border>
+    <tr><td>パブロ・ピカソ</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
+    <tr><td>オスカー・ワイルド</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
+    <tr><td>貴志祐介</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
+    <tr><td>カズオ・イシグロ</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
+</table>
 
+<!--
 <table>
 <tr><td>性別</td><td>男</td></tr>
 <tr><td>名前</td><td>パブロ・ピカソ</td></tr>
 <tr><td>職業</td><td>学生</td></tr>
 <tr><td>スキル</td><td>C, Java</td></tr>
 <tr><td>活動可能時間帯</td><td>10:00 ~ 15:00</td></tr>
-<tr><td colspan="2"><input type="button" onclick="" value="プロジェクトへ誘う"></td></tr>
+<tr><td colspan="2"><a href="">プロジェクトへ誘う</a></td></tr>
 </table>
 
 <table>
@@ -90,7 +99,7 @@
 <tr><td>職業</td><td>学生</td></tr>
 <tr><td>スキル</td><td>Java</td></tr>
 <tr><td>活動可能時間帯</td><td>14:00 ~ 15:00</td></tr>
-<tr><td colspan="2"><input type="button" onclick="" value="プロジェクトへ誘う"></td></tr>
+<tr><td colspan="2"><a href="">プロジェクトへ誘う</a></td></tr>
 </table>
 
 <table>
@@ -99,7 +108,7 @@
 <tr><td>職業</td><td>SE</td></tr>
 <tr><td>スキル</td><td>Java, </td></tr>
 <tr><td>活動可能時間帯</td><td>8:00 ~ 14:00</td></tr>
-<tr><td colspan="2"><input type="button" onclick="" value="プロジェクトへ誘う"></td></tr>
+<tr><td colspan="2"><a href="">プロジェクトへ誘う</a></td></tr>
 </table>
 
 <table>
@@ -108,8 +117,8 @@
 <tr><td>職業</td><td>学生</td></tr>
 <tr><td>スキル</td><td>Java, Python</td></tr>
 <tr><td>活動可能時間帯</td><td>11:00 ~ 15:00</td></tr>
-<tr><td colspan="2"><input type="button" onclick="" value="プロジェクトへ誘う"></td></tr>
+<tr><td colspan="2"><a href="">プロジェクトへ誘う</a></td></tr>
 </table>
-
+-->
 </body>
 </html>

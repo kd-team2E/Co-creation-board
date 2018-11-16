@@ -18,13 +18,13 @@
 <br>
 
 職業<br>
-<select name='skill'>
+<select name='job'>
     <option value=''>指定しない
-    <option value='プログラマ'>プログラマ
-    <option value='game'>ゲームエンジニア
-    <option value='game'>電子工学
+    <option value=''>プログラマ
+    <option value=''>ゲームエンジニア
+    <option value=''>電子工学
     <option value=''>グラフィックデザイン
-    <option value='game'>その他
+    <option value=''>その他
 </select>
 
 <br>
