@@ -5,17 +5,17 @@
 
     $projectName = $_POST['project'];
     $title = $_POST['title'];
-    $skill1 = $_POST['skill1'];
-    $skill2 = $_POST['skill2'];
-    $skill3 = $_POST['skill3'];
+    $skill = $_POST['skill'];
+    $tec = $_POST['tec'];
+    $count = $_POST['count'];
     $detail = $_POST['detail'];
     $tag = $_POST['tag'];
 
     $_SESSION['project'] = $projectName;
     $_SESSION['title'] = $title;
-    $_SESSION['skill1'] = $skill1;
-    $_SESSION['skill2'] = $skill2;
-    $_SESSION['skill3'] = $skill3;
+    $_SESSION['skill'] = $skill;
+    $_SESSION['tec'] = $tec;
+    $_SESSION['count'] = $count;
     $_SESSION['detail'] = $detail;
     $_SESSION['tag'] = $tag;
 ?>
@@ -28,12 +28,12 @@
         <tr><td>見出し</td><td><?= $title ?></td></tr>
         <tr><td>募集スキル</td><td>
         <?php
-            echo $skill1;
-            if ($skill2 !== ""){
-                echo "・". $skill2;
+            echo "役割：" . $skill;
+            if ($tec !== ""){
+                echo "使用技術：". $tec;
             }
-            if($skill3 !== ""){
-                echo "・". $skill3;
+            if($count !== ""){
+                echo "募集人数：". $count;
             }
         ?></td></tr>
         <tr><td>プロジェクト詳細</td><td><?= $detail ?></td></tr>
