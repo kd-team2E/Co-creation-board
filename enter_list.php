@@ -7,5 +7,5 @@
 <table><tr><td>
 <b>なつき</b><br>
 ゲーム内背景担当として参加したいです。<br>
-<a href=""><申請許可></a> <a href=""><申請拒否></a>
+<a href="per_enter.php"><申請許可></a> <a href=""><申請拒否></a>
 </td></tr></table>
