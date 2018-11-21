@@ -77,7 +77,7 @@
 </table>
 
 <table border>
-    <tr><td>パブロ・ピカソ</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
+    <tr><td>パブロ・ピカソ</td><td><a href="user.php">ユーザページ</a></td></tr>
     <tr><td>オスカー・ワイルド</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
     <tr><td>貴志祐介</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
     <tr><td>カズオ・イシグロ</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
