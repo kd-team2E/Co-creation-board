@@ -45,7 +45,14 @@
         <td>Webページのデザイン</td>
     </tr>
 </table>
-
-
+<?php
+    if(!empty($_POST["s"])){
+        echo "<p>参加要請をしました</p>";
+    }else{
+        echo '<form method="post" action="user_detail.php">
+                <input type="submit" name="s" value="参加要請">
+            </form>';
+    }
+?>
 </body>
 </html>
