@@ -9,15 +9,14 @@
 <body>
 
 <table>
-性別<br>
+性別
 <select>
 <option value="">指定しない
 <option value="">男
 <option value="">女
 </select>
-<br>
 
-職業<br>
+職業
 <select name='job'>
     <option value=''>指定しない
     <option value=''>プログラマ
@@ -27,9 +26,7 @@
     <option value=''>その他
 </select>
 
-<br>
-
-スキル<br>
+スキル
 <select name='skill'>
     <option value=''>指定しない
 <optgroup label='プログラマ'>
@@ -57,9 +54,7 @@
 </optgroup>
 </select></tr>
 
-<br>
-
-活動可能時間帯<br>
+活動可能時間帯
 <select>
 <?php
     for ( $i = 0 ; $i <= 24 ; $i++ ) {
