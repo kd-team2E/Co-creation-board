@@ -23,32 +23,84 @@
     <tr><td>技術</td><td>スキルレベル<br>1　2　3</td><td>経験年数(年)</td><td>用途</td></tr>
     <!-- ここから -->
     <tr>
-        <td>グラフィックデザイン</td>
+        <td><tr><td>
+        <select name='skill'>
+            <option value=''>
+            <optgroup label='プログラマ'>
+                <option value='IT'>C
+                <option value='IT'>C++
+                <option value='IT'>C#
+                <option value='IT'>Java
+                <option value='IT'>PHP
+                <option value='IT'>Ruby
+            </optgroup>
+            <optgroup label='ゲームエンジニア'>
+                <option value='game'>2D
+                <option value='game'>3D
+                <option value='game'>VR
+            </optgroup>
+            <optgroup label='電子工学'>
+                <option value='game'>回路設計
+            </optgroup>
+                <optgroup label='グラフィック'>
+                <option value=''>webデザイン
+                <option value='' selected>グラフィックデザイン
+            </optgroup>
+            <optgroup label='その他'>
+                <option value='game'>その他
+            </optgroup>
+        </select></td>
         <td>
             <input type="radio" name="aaaa" value="1">
             <input type="radio" name="aaaa" value="2">
             <input type="radio" name="aaaa" value="3" checked>
         </td>
-        <td>15</td>
-        <td>絵</td>
+        <td><input type=text" value="15"></td>
+        <td><input type=text" value="絵"></td>
     </tr>
     <tr>
-        <td>Webデザイン</td>
+        <td><tr><td>
+        <select name='skill'>
+            <option value=''>
+            <optgroup label='プログラマ'>
+                <option value='IT' selected>C
+                <option value='IT'>C++
+                <option value='IT'>C#
+                <option value='IT'>Java
+                <option value='IT'>PHP
+                <option value='IT'>Ruby
+            </optgroup>
+            <optgroup label='ゲームエンジニア'>
+                <option value='game'>2D
+                <option value='game'>3D
+                <option value='game'>VR
+            </optgroup>
+            <optgroup label='電子工学'>
+                <option value='game'>回路設計
+            </optgroup>
+                <optgroup label='グラフィック'>
+                <option value='' selected>webデザイン
+                <option value=''>グラフィックデザイン
+            </optgroup>
+            <optgroup label='その他'>
+                <option value='game'>その他
+            </optgroup>
+        </select></td>
         <td>
             <input type="radio" name="bbbb" value="1">
             <input type="radio" name="bbbb" value="2">
             <input type="radio" name="bbbb" value="3" checked>
         </td>
-        <td>15</td>
-        <td>Webページのデザイン</td>
+        <td><input type=text" value="15"></td>
+        <td><input type=text" value="Webページのデザイン"></td>
     </tr>
 </table>
 <?php
     if(!empty($_POST["s"])){
-        echo "<p>参加要請をしました</p>";
+        echo "<p>編集しました</p>";
     }else{
         echo '<form method="post" action="user_detail.php">
-                <input type="submit" name="s" value="参加要請">
+                <input type="submit" name="s" value="編集を確定">
             </form>';
     }
 ?>
