@@ -50,7 +50,7 @@
         echo "<p>参加要請をしました</p>";
     }else{
         echo '<form method="post" action="user_detail.php">
-                <input type="submit" name="s" value="参加要請">
+                <input type="submit" name="s" value="参加要請" style="WIDTH: 400px; HEIGHT: 50px">
             </form>';
     }
 ?>
