@@ -59,7 +59,7 @@
 <select>
 <?php
     for ( $i = 0 ; $i <= 24 ; $i++ ) {
-        echo "<option value='start_time'>" . $i . ":00";
+        echo "<option>" . $i . ":00</option>";
     }
 ?>
 </select>
@@ -67,7 +67,7 @@
 <select>
 <?php
     for ( $i = 0 ; $i <= 24 ; $i++ ) {
-        echo "<option value='start_time'>" . $i . ":00";
+        echo "<option>" . $i . ":00</option>";
     }
 ?>
 </select>
@@ -76,49 +76,25 @@
 <input type="button" onclick="location.href='user_search_result.php'" value="再検索">
 </table>
 
-<table border>
-    <tr><td>パブロ・ピカソ</td><td><a href="user.php">ユーザページ</a></td></tr>
-    <tr><td>オスカー・ワイルド</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
-    <tr><td>貴志祐介</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
-    <tr><td>カズオ・イシグロ</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
+<table width="80%">
+<tr><td width="10%">性別</td><td width="30%">名前</td><td width="15%">職業</td><td width="15%">スキル</td><td>活動可能時間帯</td><td rowspan="2"><input type="button" class="btn" onclick="location.href='user_detail.php'" value="ユーザーページ参照"></td></tr>
+<tr><td>男</td><td>パブロ・ピカソ</td><td>学生</td><td>C, Java</td><td>10:00 ~ 15:00</td></tr>
 </table>
 
-<!--
-<table>
-<tr><td>性別</td><td>男</td></tr>
-<tr><td>名前</td><td>パブロ・ピカソ</td></tr>
-<tr><td>職業</td><td>学生</td></tr>
-<tr><td>スキル</td><td>C, Java</td></tr>
-<tr><td>活動可能時間帯</td><td>10:00 ~ 15:00</td></tr>
-<tr><td colspan="2"><a href="">プロジェクトへ誘う</a></td></tr>
+<table width="80%">
+<tr><td width="10%">性別</td><td width="30%">名前</td><td width="15%">職業</td><td width="15%">スキル</td><td>活動可能時間帯</td><td rowspan="2"><input type="button" class="btn" onclick="location.href='user_detail.php'" value="ユーザーページ参照"></td></tr>
+<tr><td>女</td><td>オスカー・ワイルド</td><td>学生</td><td>Java</td><td>14:00 ~ 15:00</td></tr>
 </table>
 
-<table>
-<tr><td>性別</td><td>女</td></tr>
-<tr><td>名前</td><td>オスカー・ワイルド</td></tr>
-<tr><td>職業</td><td>学生</td></tr>
-<tr><td>スキル</td><td>Java</td></tr>
-<tr><td>活動可能時間帯</td><td>14:00 ~ 15:00</td></tr>
-<tr><td colspan="2"><a href="">プロジェクトへ誘う</a></td></tr>
+<table width="80%">
+<tr><td width="10%">性別</td><td width="30%">名前</td><td width="15%">職業</td><td width="15%">スキル</td><td>活動可能時間帯</td><td rowspan="2"><input type="button" class="btn" onclick="location.href='user_detail.php'" value="ユーザーページ参照"></td></tr>
+<tr><td>男</td><td>貴志祐介</td><td>SE</td><td>Java</td><td>8:00 ~ 14:00</td></tr>
 </table>
 
-<table>
-<tr><td>性別</td><td>男</td></tr>
-<tr><td>名前</td><td>貴志祐介</td></tr>
-<tr><td>職業</td><td>SE</td></tr>
-<tr><td>スキル</td><td>Java, </td></tr>
-<tr><td>活動可能時間帯</td><td>8:00 ~ 14:00</td></tr>
-<tr><td colspan="2"><a href="">プロジェクトへ誘う</a></td></tr>
+<table width="80%">
+<tr><td width="10%">性別</td><td width="30%">名前</td><td width="15%">職業</td><td width="15%">スキル</td><td>活動可能時間帯</td><td rowspan="2"><input type="button" class="btn" onclick="location.href='user_detail.php'" value="ユーザーページ参照"></td></tr>
+<tr><td>女</td><td>カズオ・イシグロ</td><td>学生</td><td>Java, Python</td><td>11:00 ~ 15:00</td></tr>
 </table>
 
-<table>
-<tr><td>性別</td><td>女</td></tr>
-<tr><td>名前</td><td>カズオ・イシグロ</td></tr>
-<tr><td>職業</td><td>学生</td></tr>
-<tr><td>スキル</td><td>Java, Python</td></tr>
-<tr><td>活動可能時間帯</td><td>11:00 ~ 15:00</td></tr>
-<tr><td colspan="2"><a href="">プロジェクトへ誘う</a></td></tr>
-</table>
--->
 </body>
 </html>

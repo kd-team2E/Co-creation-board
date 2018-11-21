@@ -8,13 +8,13 @@
 </head>
 <body>
 <table>
-    <tr><td><img src="./pikaso.png" width="100" height=100"></td><td colspan="2"><button type="button" class="btn btn-default">画像を選択</button></td></tr>
+    <tr><td><img src="./pikaso.png" width="100" height=100"></td><td colspan="2"></td></tr>
     <tr><td>名前</td><td colspan="2">パブロ・ピカソ</td></tr>
     <tr><td>Mail</td><td colspan="2">taro@example.co.jp</td></tr>
     <tr><td>性別</td><td colspan="2">男<br>
     <tr><td>職業</td><td colspan="2">芸術家</td></tr>
     <tr><td>活動可能時間帯</td><td colspan="2">10:00 ~ 15:00</td></tr>
-    <tr><td>過去成果物</td><td></td>
+    <tr><td>過去成果物</td><td><font color="blue">https://github.com</font></td>
     <tr><td>アピールポイント</td><td colspan="2">特になし</textarea></td></tr>
 </table>
 <table>
