@@ -8,7 +8,7 @@
 </head>
 <body>
 <table>
-    <tr><td><img src="./pikaso.png" width="100" height=100"></td><td colspan="2"><a href="user_detai.php">マイページ編集</a><br><a href="enter_list.php">プロジェクトへの参加申請一覧</td></tr>
+    <tr><td><img src="./pikaso.png" width="100" height=100"></td><td colspan="2"><a href="user_detail.php">マイページ編集</a><br><a href="enter_list.php">プロジェクトへの参加申請一覧</td></tr>
     <tr><td>名前</td><td colspan="2">パブロ・ピカソ</td></tr>
     <tr><td>Mail</td><td colspan="2">taro@example.co.jp</td></tr>
     <tr><td>性別</td><td colspan="2">男<br>
