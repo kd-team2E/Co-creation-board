@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__ . './header.php';
+    require_once __DIR__ . '/header.php';
 ?>
 <DOCTYPE html>
 <html lang="ja">
@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<b>スキル: Java</b>で検索をかけました。<br><br>
+<b>スキル: グラフィックデザイン</b>で検索をかけました。<br><br>
 
 <table border="1">
 性別
@@ -34,7 +34,7 @@
     <option value='IT'>C
     <option value='IT'>C++
     <option value='IT'>C#
-    <option value='IT' selected>Java
+    <option value='IT'>Java
     <option value='IT'>PHP
     <option value='IT'>Ruby
 </optgroup>
@@ -48,7 +48,7 @@
 </optgroup>
     <optgroup label='グラフィック'>
     <option value=''>webデザイン
-    <option value=''>グラフィックデザイン
+    <option value='' selected>グラフィックデザイン
 </optgroup>
 <optgroup label='その他'>
     <option value='game'>その他
@@ -77,7 +77,7 @@
 </table>
 
 <table border>
-    <tr><td>パブロ・ピカソ</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
+    <tr><td>パブロ・ピカソ</td><td><a href="user.php">ユーザページ</a></td></tr>
     <tr><td>オスカー・ワイルド</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
     <tr><td>貴志祐介</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
     <tr><td>カズオ・イシグロ</td><td><a href="user_detail.php">ユーザページ</a></td></tr>
