@@ -41,7 +41,7 @@
     if(!empty($_POST["s"])){
         echo "<p>参加要請をしました</p>";
     }else{
-        echo '<form method="post" action="user_detail.php">
+        echo '<form method="post" action="user.php">
                 <input type="submit" name="s" value="参加要請">
             </form>';
     }
