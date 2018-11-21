@@ -73,7 +73,7 @@
 </select>
 
 <br><br>
-<input type="button" onclick="location.href='search_result.php'" value="再検索">
+<input type="button" onclick="location.href='user_search_result.php'" value="再検索">
 </table>
 
 <table border>
