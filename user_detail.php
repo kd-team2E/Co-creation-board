@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__ . './header.php';
+    require_once __DIR__ . '/header.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,12 +17,10 @@
     <tr><td>過去成果物</td><td></td>
     <tr><td>アピールポイント</td><td colspan="2">特になし</textarea></td></tr>
 </table>
-
 <table>
     <tr><td colspan="4">スキル</td></tr>
     <tr><td colspan="4" style="font-size: 12px"><b>*スキルレベル指標<br><br>1: 触ったことがある　2: マニュアルを見ずに使える　3: 他人に教えられる</b></td></tr>
     <tr><td>技術</td><td>スキルレベル<br>1　2　3</td><td>経験年数(年)</td><td>用途</td></tr>
-
     <!-- ここから -->
     <tr>
         <td>グラフィックデザイン</td>
@@ -45,7 +43,14 @@
         <td>Webページのデザイン</td>
     </tr>
 </table>
-
-
+<?php
+    if(!empty($_POST["s"])){
+        echo "<p>参加要請をしました</p>";
+    }else{
+        echo '<form method="post" action="user_detail.php">
+                <input type="submit" name="s" value="参加要請">
+            </form>';
+    }
+?>
 </body>
 </html>
