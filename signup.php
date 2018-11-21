@@ -18,14 +18,16 @@
     <tr><td>Pass</td><td colspan="2"><input type="password" class="form-control"  placeholder="パスワードを入力してください" required></td></tr>
     <tr><td>Mail</td><td colspan="2"><input type="text" class="form" placeholder="taro" required>@<input type="text" class="form" placeholder="example.co.jp" required></td></tr>
     <tr><td>性別</td><td colspan="2">
-        男：<input type="radio" name="gender" value="男" required checked><br>
+        <optgroup>
+        男：<input type="radio" name="gender" value="男" required checked>
         女：<input type="radio" name="gender" value="女" required></td></tr>
+        <optgroup label='プログラマ'>
     <tr><td>職業</td><td colspan="2"><input type="text" class="form-control" placeholder="学生" required></td></tr>
     <tr><td>活動可能時間帯</td><td colspan="2">
     <select>
     <?php
         for ( $i = 0 ; $i <= 24 ; $i++ ) {
-            echo "<option value='start_time'>" . $i . ":00";
+            echo "<option value='start_time>" . $i . ":00";
         }
     ?>
     </select>
