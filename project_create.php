@@ -19,7 +19,7 @@
         <tr><td>プロジェクト名</td><td><input size = "50" type = "text" name = "project" value = "<?= $projectName ?>" required></td></tr>
         <tr><td>PR文</td><td><input size = "50" type = "text" name = "title" value = "<?= $title ?>" required></td></tr>
         <tr><td>募集スキル</td><td>役割
-            <select name = "skill1">
+            <select name = "skill">
                 <option value = ""></option>
                 <option value = "プログラマ">プログラマ</option>
                 <option value = "ゲームエンジニア">ゲームエンジニア</option>
