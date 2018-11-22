@@ -27,7 +27,7 @@
     <select>
     <?php
         for ( $i = 0 ; $i <= 24 ; $i++ ) {
-            echo "<option value='start_time>" . $i . ":00";
+            echo "<option value>" . $i . ":00";
         }
     ?>
     </select>
@@ -35,7 +35,7 @@
     <select>
     <?php
         for ( $i = 0 ; $i <= 24 ; $i++ ) {
-            echo "<option value='start_time'>" . $i . ":00";
+            echo "<option value>" . $i . ":00";
         }
     ?>
     </select>

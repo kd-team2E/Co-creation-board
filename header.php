@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="project.css">
 </head>
 <body>
-<div align="right"><a href="mypage.php">マイページ</a>/ログアウト</div>
+<div align="right"><a href="mypage.php">マイページ</a>|<a href="logout.php">ログアウト</a></div>
 <h2>プロジェクト掲示板</h2>
 <ul class="navi">
 <li><a href="project_search.php">プロジェクト検索</a></li><li>|</li>
