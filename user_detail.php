@@ -9,13 +9,13 @@
 <body>
 <table>
     <tr><td><img src="./kobedenshi.jpg" width="100" height=100"></td><td colspan="2"></td></tr>
-    <tr><td>名前</td><td colspan="2"><input type="text" value="神戸電子"></td></tr>
-    <tr><td>Mail</td><td colspan="2"><input type="text" value="taro@example.co.jp"></td></tr>
+    <tr><td>名前</td><td colspan="2"><input type="text" value="神戸 電子"></td></tr>
+    <tr><td>Mail</td><td colspan="2"><input type="text" value="kobe@denshi.co.jp"></td></tr>
     <tr><td>性別</td><td colspan="2">
         男：<input type="radio" name="gender" value="男" required checked>
         女：<input type="radio" name="gender" value="女" required>
     </td></tr>
-    <tr><td>学科・コース</td><td colspan="2"><input type="text" value="グラフィックデザイン"></td></tr>
+    <tr><td>学科・コース</td><td colspan="2"><input type="text" value="ITエキスパート学科"></td></tr>
     <tr><td>活動可能時間帯</td><td colspan="2">
     <select>
     <?php
@@ -44,8 +44,10 @@
     </select>
     
     </td></tr>
-    <tr><td>過去成果物</td><td><input type="text" value="https://github.com"></td>
-    <tr><td>アピールポイント</td><td colspan="2"><input type="text" value="特になし"></textarea></td></tr>
+    <tr><td>過去成果物</td><td><input type="text" value="kobe@denshi.co.jp"></td>
+    <tr><td>アピールポイント</td><td colspan="2"><input type="text" value="色々な分野に挑戦していきたいと思っています！
+楽しく制作できるメンバーを募集しているので、
+一緒に頑張っていきましょう！"></textarea></td></tr>
 </table>
 <table>
     <tr><td colspan="4">スキル</td></tr>
@@ -98,7 +100,7 @@
             }
         ?>        
         </select></td>
-        <td><input type=text" value="絵"></td>
+        <td><input type=text" value="プロンプト上で動くゲーム"></td>
     </tr>
     <tr>
         <td><tr><td>
@@ -146,7 +148,7 @@
             }
         ?>        
         </select></td>
-        <td><input type=text" value="Webページのデザイン"></td>
+        <td><input type=text" value="Webアプリケーション"></td>
     </tr>
 </table>
 <?php
