@@ -12,7 +12,7 @@
     <tr><td>名前</td><td colspan="2">パブロ・ピカソ</td></tr>
     <tr><td>Mail</td><td colspan="2">taro@example.co.jp</td></tr>
     <tr><td>性別</td><td colspan="2">男<br>
-    <tr><td>職業</td><td colspan="2">芸術家</td></tr>
+    <tr><td>学科・コース</td><td colspan="2">グラフィックデザイン</td></tr>
     <tr><td>活動可能時間帯</td><td colspan="2">10:00 ~ 15:00</td></tr>
     <tr><td>過去成果物</td><td><font color="blue">https://github.com</font></td>
     <tr><td>アピールポイント</td><td colspan="2">特になし</textarea></td></tr>
