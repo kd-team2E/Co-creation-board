@@ -62,12 +62,10 @@
         -->
     <tr><td>アピールポイント</td><td colspan="2"><textarea rows="10" cols="60"></textarea></td></tr>
 </table>
-
 <table>
     <tr><td colspan="4">スキル</td></tr>
     <tr><td colspan="4" style="font-size: 12px"><b>*スキルレベル指標<br><br>1: 触ったことがある　2: マニュアルを見ずに使える　3: 他人に教えられる</b></td></tr>
     <tr><td>技術</td><td>スキルレベル<br>1　2　3</td><td>経験年数(年)</td><td>用途</td></tr>
-
     <!-- ここから -->
     <tr><td>
         <select name='skill'>
@@ -105,7 +103,6 @@
         <td>2.5</td>
         <td><input type="text" class="form-control" placeholder="OS開発"></td>
     </tr>
-
     <tr><td>
         <select name='skill'>
             <option value=''>
@@ -171,13 +168,11 @@
     </select>
     <!-- ここまでひどすぎ -->
     </td>
-
     <td width='20%'>
         <input type='radio' name='aaaa' value='1'>
         <input type='radio' name='aaaa' value='2'>
         <input type='radio' name='aaaa' value='3'></td>    
     <td width='15%'><select>
-
     <?php
             
         for ( $i = 0 ; $i <= 7 ; $i += 0.5 ) {
@@ -189,15 +184,11 @@
     <td><input type='text' class="form-control"></td>
     </tr>
 </table>
-
 </form>
-
 <div class="btn-group" role="group">
     <button type="button" class="btn btn-default">追加</button>
     <button type="button" class="btn btn-default">削除</button>
 </div>
-
 <br><br><br><button type="button" onclick="location.href='signup_success.php'" class="btn btn-success">送信</button>
-
 </body>
 </html>

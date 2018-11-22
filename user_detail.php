@@ -8,37 +8,14 @@
 </head>
 <body>
 <table>
-    <tr><td><img src="./pikaso.png" width="100" height=100"></td><td colspan="2"><button type="button" class="btn btn-default">画像を選択</button></td></tr>
-    <tr><td>名前</td><td colspan="2"><input type="text" value="パブロ・ピカソ"></td></tr>
-    <tr><td>Mail</td><td colspan="2"><input type="text" value="taro@example.co.jp"></td></tr>
-    <tr><td>性別</td><td colspan="2">男<input type="radio" name="gender" value="男" checked>　女<input type="radio" name="gender" value="女"><br>
-    <tr><td>職業</td><td colspan="2"><input type="text" value="芸術家"</td></tr>
-    <tr><td>活動可能時間帯</td><td colspan="2"><select>
-    <?php
-        for ( $i = 0 ; $i <= 24 ; $i++ ) {
-            echo "<option value='" . $i . "'";
-            if($i == 10){
-                echo " selected>";
-            }else{
-                echo ">";
-            }
-            echo $i . ":00" . "</option>";
-        }
-        echo "</select>~<select>";
-        for ( $i = 0 ; $i <= 24 ; $i++ ) {
-            echo "<option value='" . $i . "'";
-            if($i == 17){
-                echo " selected>";
-            }else{
-                echo ">";
-            }
-            echo $i . ":00" . "</option>";
-        }
-    ?>
-</select>
-    </td></tr>
-    <tr><td>過去成果物</td><td></td>
-    <tr><td>アピールポイント</td><td colspan="2"><textarea cols="50" rows="5">特になし</textarea></td></tr>
+    <tr><td><img src="./pikaso.png" width="100" height=100"></td><td colspan="2"></td></tr>
+    <tr><td>名前</td><td colspan="2">パブロ・ピカソ</td></tr>
+    <tr><td>Mail</td><td colspan="2">taro@example.co.jp</td></tr>
+    <tr><td>性別</td><td colspan="2">男<br>
+    <tr><td>職業</td><td colspan="2">芸術家</td></tr>
+    <tr><td>活動可能時間帯</td><td colspan="2">10:00 ~ 15:00</td></tr>
+    <tr><td>過去成果物</td><td><font color="blue">https://github.com</font></td>
+    <tr><td>アピールポイント</td><td colspan="2">特になし</textarea></td></tr>
 </table>
 <table>
     <tr><td colspan="4">スキル</td></tr>
