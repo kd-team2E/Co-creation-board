@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="project.css">
 </head>
 <body>
+	<div style="background-color: #FFBB33">
 <div align="right"><a href="signup.php">新規登録</a> | <a href="login.php">ログイン</a></div>
 <h2>プロジェクト掲示板</h2>
 <ul class="navi">
@@ -13,5 +14,4 @@
 <li><a href="user_search.php">ユーザーページ検索</a></li>
 </ul>
 <hr>
-</body>
-</html>
+</div>
