@@ -77,7 +77,7 @@
 </table>
 
 <table width="80%">
-<tr><td width="10%">性別</td><td width="30%">名前</td><td width="15%">職業</td><td width="15%">スキル</td><td>活動可能時間帯</td><td rowspan="2"><input type="button" class="btn" onclick="location.href='user_detail.php'" value="ユーザーページ参照"></td></tr>
+<tr><td width="10%">性別</td><td width="30%">名前</td><td width="15%">職業</td><td width="15%">スキル</td><td>活動可能時間帯</td><td rowspan="2"><input type="button" class="btn" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
 <tr><td>男</td><td>パブロ・ピカソ</td><td>学生</td><td>C, Java</td><td>10:00 ~ 15:00</td></tr>
 </table>
 
