@@ -40,7 +40,7 @@
         <tr><td>タグ</td><td><?= $tag ?></td></tr>
     </table>
 
-    <input type = "button" onclick = "location.href = 'create_post.php'" value = "投稿">
-    <input type = "button" onclick = "location.href = 'project_create.php'" value = "内容修正">
+    <input type = "button" class="btn btn-primary" onclick = "location.href = 'create_post.php'" value = "投稿">
+    <input type = "button" class="btn btn-primary" onclick = "location.href = 'project_create.php'" value = "内容修正">
 </body>
 </html>

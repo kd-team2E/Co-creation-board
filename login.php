@@ -4,21 +4,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>プロジェクト掲示板</title>
-	<link rel="stylesheet" type="text/css" href="project.css">
 </head>
 <body>
 
-<div class="container">
-<form class="form-signin">
-<h2 class="form-signin-heading">Please sign in</h2>
-
-mail : <input type="email" class="input-block-level" value="example.co.jp"><br>
-pass : <input type="password" class="input-block-level" value="BeOS"><br><br>
-<input type="button" class="btn btn-large btn-primary" onclick="location.href='project.php'" value="ログイン">
-
+<form class="form-inline justify-content-center">
+	<div class="form-signin">
+		mail
+		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="email">
+	</div>
 </form>
-</div>
+<br>
+<form class="form-inline justify-content-center">
+	<div class="form-group">
+		pass
+		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"><br><br>
+	</div>
+</form>
+
+<br><a class="btn btn-primary" href="project.php" role="button">ログイン</a>
 
 </body>
 </html>

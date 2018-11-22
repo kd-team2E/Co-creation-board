@@ -4,7 +4,7 @@
 
  <div class="box4">
     <h3>ゲーム制作メンバー募集！</h3>
-    <a href="project_enter.php"><form action="project_enter.php"><input type="submit" value="参加する"></form></font></a>
+    <a href="project_enter.php"><form action="project_enter.php"><input type="submit" class="btn btn-primary" value="参加する"></form></font></a>
     <p>募集者：神戸 電子</p>
 </div>
 <p>募集スキル：プログラミング、グラフィックデザイン、サウンドクリエイト</p>
@@ -18,7 +18,7 @@
 <p>登録タグ：プログラマー、グラフィックデザイナー、サウンドクリエイター、ゲーム制作</p>
 <hr>
 コメント　　　　<br>
-<textarea rows="5" cols="50"></textarea><input type="submit" value="コメント投稿">
+<textarea rows="5" cols="50"></textarea><input type="submit" class="btn btn-light" value="コメント投稿">
 <table>
 <tr align="left"><td>
     <p><img src="images/kobedenshi.jpg" align="left"><b>4.神戸　電子</b><br>

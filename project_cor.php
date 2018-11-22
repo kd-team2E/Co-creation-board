@@ -146,13 +146,13 @@
                 <option value = "4">4</option>
                 <option value = "5">5</option>
             </select>
-            <input type = "button" value = "追加">
+            <input type = "button" class="btn btn-primary" value = "追加">
         </td></tr>
         <tr><td>プロジェクト詳細</td><td><textarea cols = "80" rows = "10" name = "detail">初めての試みの為、必要な技術として足りない分野の作業や、明らかに人数の足りない分野の募集がありましたら一声頂けると嬉しいです。メンバー全員で楽しく作っていきたいと思っています。宜しくお願いします</textarea></td></tr>
         <tr><td>タグ</td><td><input size = "50" type = "text" name = "tag" value = "プログラマー、グラフィックデザイナー、サウンドクリエイター、ゲーム制作"></td></tr>
     </table>
-    <input type = "submit" value = "編集確定">&nbsp;
-    <input type = "reset"  value = "内容クリア">
+    <input type = "submit" class="btn btn-primary" value = "編集確定">&nbsp;
+    <input type = "reset"  class="btn btn-light" value = "内容クリア">
 </form>
 </body>
 </html>

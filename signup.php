@@ -10,14 +10,15 @@
 <body>
 <div class="form-group" style="text-align:center;">
 
-<h1>ユーザーページの登録</h1>
-
 <form class="form-horizontal">
-<table>
-    <tr><td><img src="images/profile_image.png" width="100" height=100"></td><td colspan="2"><button type="button" class="btn btn-default">画像を選択</button></td></tr>
+<table class="table" style="width: 80%">
+    <thead class="thead-dark">
+    <tr><th colspan="2">ユーザー情報</th></tr>
+    </thead>
+    <tr><td><img src="images/profile_image.png" width="100" height=100"></td><td colspan="2"><button type="button" class="btn btn-light">画像を選択</button></td></tr>
     <tr><td>名前</td><td colspan="2"><input type="text" class="form-control" placeholder="神戸 太郎" required></td></tr>
     <tr><td>Pass</td><td colspan="2"><input type="password" class="form-control"  placeholder="パスワードを入力してください" required></td></tr>
-    <tr><td>Mail</td><td colspan="2"><input type="text" class="form" placeholder="taro" required>@<input type="text" class="form" placeholder="example.co.jp" required></td></tr>
+    <tr><td>Mail</td><td colspan="2"><input type="text" placeholder="taro" style="width: 40%">@<input type="text" placeholder="example.co.jp" style="width: 40%"></td></tr>
     <tr><td>性別</td><td colspan="2">
         男：<input type="radio" name="gender" value="男" required checked>
         女：<input type="radio" name="gender" value="女" required></td></tr>
@@ -41,15 +42,29 @@
     </td></tr>
     <tr><td>過去成果物</td>
     <td><input type="text" class="form-control"></td>
-    <tr><td>アピールポイント</td><td colspan="2" class=""><textarea rows="10" cols="60"></textarea></td></tr>
+    <tr><td>アピールポイント</td><td colspan="2" class=""><textarea rows="10" style="width: 100%"></textarea></td></tr>
 </table>
-<table>
-    <tr><td colspan="4">スキル</td></tr>
-    <tr><td colspan="4" style="font-size: 12px"><b>*スキルレベル指標<br><br>1: 触ったことがある　2: マニュアルを見ずに使える　3: 他人に教えられる</b></td></tr>
-    <tr><td>技術</td><td>スキルレベル<br>1　2　3</td><td>経験年数(年)</td><td>用途</td></tr>
+
+<table class="table" style="width: 80%">
+    <thead class="thead-dark">
+        <tr>
+            <th colspan="4">スキル</th>
+        </tr>
+    </thead>
+    <tr>
+        <td colspan="4" style="font-size: 12px">
+            <b>*スキルレベル指標<br><br>1: 触ったことがある　2: マニュアルを見ずに使える　3: 他人に教えられる</b>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 20%">技術</td>
+        <td style="width: 25%">スキルレベル<br>1　2　3</td>
+        <td style="width: 20%">経験年数(年)</td>
+        <td>用途</td>
+    </tr>
     <!-- ここから -->
     <tr><td>
-        <select name='skill'>
+        <select name='skill' style="width: 100%">
             <option value=''>
             <optgroup label='プログラマ'>
                 <option value='IT' selected>C
@@ -84,8 +99,9 @@
         <td>2.5</td>
         <td><input type="text" class="form-control" placeholder="OS開発"></td>
     </tr>
+    
     <tr><td>
-        <select name='skill'>
+        <select name='skill' style="width: 100%">
             <option value=''>
             <optgroup label='プログラマ'>
                 <option value='IT'>C
@@ -121,7 +137,7 @@
     </tr>
     
     <tr><td>
-    <select name='skill'>
+    <select name='skill' style="width: 100%">
             <option value='' selected>
         <optgroup label='プログラマ'>
             <option value='IT'>C
@@ -167,9 +183,9 @@
 </table>
 </form>
 <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">追加</button>
-    <button type="button" class="btn btn-default">削除</button>
+    <button type="button" class="btn btn-light">追加</button>
+    <button type="button" class="btn btn-light">削除</button>
 </div>
-<br><br><br><button type="button" onclick="location.href='signup_success.php'" class="btn btn-success">送信</button>
+<br><br><br><button type="button" onclick="location.href='signup_success.php'" class="btn btn-primary">送信</button>
 </body>
 </html>

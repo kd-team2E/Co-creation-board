@@ -17,7 +17,7 @@
 <p>登録タグ：プログラマー、グラフィックデザイナー、サウンドクリエイター、ゲーム制作</p>
 <hr>
 コメント　　　　<br>
-<textarea rows="5" cols="50"></textarea><input type="submit" value="コメント投稿">
+<textarea rows="5" cols="50"></textarea><input type="submit" class="btn btn-light" value="コメント投稿">
 <table>
 <tr align="left"><td>
     <p><img src="images/kobedenshi.jpg" align="left"><b>4.神戸　電子</b><br>
