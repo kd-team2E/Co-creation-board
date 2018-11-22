@@ -11,9 +11,10 @@
 <div class="form-group" style="text-align:center;">
 
 <h1>ユーザーページの登録</h1>
+
 <form class="form-horizontal">
 <table>
-    <tr><td><img src="./profile_image.png" width="100" height=100"></td><td colspan="2"><button type="button" class="btn btn-default">画像を選択</button></td></tr>
+    <tr><td><img src="images/profile_image.png" width="100" height=100"></td><td colspan="2"><button type="button" class="btn btn-default">画像を選択</button></td></tr>
     <tr><td>名前</td><td colspan="2"><input type="text" class="form-control" placeholder="神戸 太郎" required></td></tr>
     <tr><td>Pass</td><td colspan="2"><input type="password" class="form-control"  placeholder="パスワードを入力してください" required></td></tr>
     <tr><td>Mail</td><td colspan="2"><input type="text" class="form" placeholder="taro" required>@<input type="text" class="form" placeholder="example.co.jp" required></td></tr>
@@ -39,8 +40,8 @@
     </select>
     </td></tr>
     <tr><td>過去成果物</td>
-    <td><input type="text"></td>
-    <tr><td>アピールポイント</td><td colspan="2"><textarea rows="10" cols="60"></textarea></td></tr>
+    <td><input type="text" class="form-control"></td>
+    <tr><td>アピールポイント</td><td colspan="2" class=""><textarea rows="10" cols="60"></textarea></td></tr>
 </table>
 <table>
     <tr><td colspan="4">スキル</td></tr>
