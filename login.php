@@ -9,10 +9,17 @@
 </head>
 <body>
 
-mail : <input type="email" value="example.co.jp"><br>
-pass : <input type="password" value="BeOS"><br><br>
+<div class="container">
+<form class="form-signin">
+<h2 class="form-signin-heading">Please sign in</h2>
 
-<input type="button" onclick="location.href='project.php'" value="ログイン">
+mail : <input type="email" class="input-block-level" value="example.co.jp"><br>
+pass : <input type="password" class="input-block-level" value="BeOS"><br><br>
+<input type="button" class="btn btn-large btn-primary" onclick="location.href='project.php'" value="ログイン">
+
+</form>
+</div>
 
 </body>
 </html>
+
