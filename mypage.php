@@ -15,7 +15,8 @@
     <tr><td>学科・コース</td><td colspan="2">ITエキスパート学科</td></tr>
     <tr><td>活動可能時間帯</td><td colspan="2">10:00 ~ 15:00</td></tr>
     <tr><td>過去成果物</td><td><font color="blue">https://github.com/kd-team2E/Co-c...</font></td>
-    <tr><td>アピールポイント</td><td colspan="2"></textarea></td></tr>
+    <tr><td>アピールポイント</td><td colspan="2">色々な分野に挑戦していきたいと思っています！<br>楽しく制作できるメンバーを募集しているので、<br>
+    一緒に頑張っていきましょう！</td></tr>
 </table>
 
 <table>
