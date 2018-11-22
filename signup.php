@@ -18,10 +18,8 @@
     <tr><td>Pass</td><td colspan="2"><input type="password" class="form-control"  placeholder="パスワードを入力してください" required></td></tr>
     <tr><td>Mail</td><td colspan="2"><input type="text" class="form" placeholder="taro" required>@<input type="text" class="form" placeholder="example.co.jp" required></td></tr>
     <tr><td>性別</td><td colspan="2">
-        <optgroup>
         男：<input type="radio" name="gender" value="男" required checked>
         女：<input type="radio" name="gender" value="女" required></td></tr>
-        <optgroup label='プログラマ'>
     <tr><td>職業</td><td colspan="2"><input type="text" class="form-control" placeholder="学生" required></td></tr>
     <tr><td>活動可能時間帯</td><td colspan="2">
     <select>
@@ -41,25 +39,7 @@
     </select>
     </td></tr>
     <tr><td>過去成果物</td>
-        
-        <!--
-        <td>
-        <div class="input-group">
-            <span class="input-group-btn">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    ボタン
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">aaa</a></li>
-                    <li><a href="#">bbb</a></li>
-                    <li><a href="#">ccc</a></li>
-                </ul>
-            </span>
-            <input type="text" class="form-control" placeholder="テキスト入力欄">
-        </div>
-        </td>
-        -->
+    <td><input type="text"></td>
     <tr><td>アピールポイント</td><td colspan="2"><textarea rows="10" cols="60"></textarea></td></tr>
 </table>
 <table>
