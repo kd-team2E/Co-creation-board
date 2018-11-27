@@ -1,83 +1,3 @@
-<<<<<<< HEAD:project.css
-.navi li {
-  display: inline;
-  list-style-type: none;
-  padding-right: 20px;
-}
-
-/* テーブルを常に画面中心に配置 */
-table {
-  margin: 0px auto 20px;
-}
-
-/* テーブルの枠線を灰色の1pxの直線とし、1本にまとめる */
-table, th, td {
-  border: 1px solid #C0C0C0;
-  border-collapse: collapse;
-}
-
-/* セル内の上下の余白を3px、左右の余白を10pxに */
-th, td {
-  padding: 3px 10px 3px 10px;
-}
-
-/* 未訪問リンクの文字色を黒にし、アンダーラインがつかないようにする */
-a:link{
-  color: #000000;
-  text-decoration: none;
-}
-
-/* 訪問済みのリンクの文字色を黒にし、アンダーラインがつかないようにする */
-a:visited{
-  color: #000000;
-  text-decoration: none;
-}
-
-/* リンクにカーソルが乗った場合の文字色をgrayにし、アンダーラインがつかないようにする */
-a:hover{
-  color: #808080;
-  text-decoration: none;
-}
-
-/* リンクがクリックされてから離されるまでの文字色をsilverにし、アンダーラインがつかないようにする */
-a:active{
-  color: #c0c0c0;
-  text-decoration: none;
-}
-
-/* body要素内の文字列をセンタリング */
-body {
-  text-align: center;
-}
-
-/*プロジェクト表示画面の上下枠線*/
-.box4{
-    padding: 8px 19px;
-    margin: 2em 0;
-    color: #000000;
-    background: #FFEEAA;
-    border-top: solid 5px #ffcc33;
-    border-bottom: solid 5px #FFCC33;
-}
-
-.box4 p {
-    margin: 0; 
-    padding: 0;
-}
-
-.box1 {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    border: solid 3px #000000;
-}
-
-.box1 p {
-    margin: 0; 
-    padding: 0;
-}
-
-=======
 .navi li {
   display: inline;
   list-style-type: none;
@@ -134,9 +54,9 @@ body {
     padding: 8px 19px;
     margin: 2em 0;
     color: #2c2c2f;
-    background: #cde4ff;
-    border-top: solid 5px #5989cf;
-    border-bottom: solid 5px #5989cf;
+    background: #FFee99;
+    border-top: solid 5px #ffcc00;
+    border-bottom: solid 5px #FFCC00;
 }
 
 .box4 p {
@@ -160,4 +80,3 @@ body {
   width: 70px;
   height: 40px;
 }
->>>>>>> 6300584eb25e6294f33d271814a1373896fee6a6:bootstrap/css/project.css
