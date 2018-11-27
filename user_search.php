@@ -74,7 +74,7 @@
 
 <br>
 
-<input type="button" class="btn btn-primary" onclick="location.href='user_search_result.php'" value="検索">
+<input type="button" class="btn btn-warning" onclick="location.href='user_search_result.php'" value="検索">
 
 <body>
 </html>

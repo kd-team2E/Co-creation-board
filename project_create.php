@@ -69,7 +69,7 @@
         <tr><td>プロジェクト詳細</td><td><textarea cols = "80" rows = "10" name = "detail"><?= $detail ?></textarea></td></tr>
         <tr><td>タグ</td><td><input size = "50" type = "text" name = "tag" value = "<?= $tag ?>"></td></tr>
     </table>
-    <input type = "submit" class="btn btn-primary" value = "投稿する">&nbsp;
+    <input type = "submit" class="btn btn-warning" value = "投稿する">&nbsp;
     <?php
         session_destroy();
     ?>
