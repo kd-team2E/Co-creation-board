@@ -78,30 +78,30 @@
 
 <table width="85%">
 <thead class="thead-light">
-<tr><th width="10%">性別</th><th width="20%">名前</th><th width="25%">学科</th><th width="15%">スキル</th><th>活動可能時間帯</th><td rowspan="2"><input type="button" class="btn btn-secondary" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
+<tr><th width="10%">性別</th><th width="20%">名前</th><th width="25%">学科</th><th width="15%">スキル</th><th>活動可能時間帯</th><th>ユーザーページ</th></tr>
 </thead>
-<tr><td>男</td><td>パブロ・ピカソ</td><td>webデザイン</td><td>グラフィックデザイン<br>webデザイン</td><td>10:00 ~ 15:00</td></tr>
+<tr><td>男</td><td>パブロ・ピカソ</td><td>webデザイン</td><td>グラフィックデザイン<br>webデザイン</td><td>10:00 ~ 15:00</td><td><input type="button" class="btn btn-secondary" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
 </table>
 
 <table width="85%">
 <thead class="thead-light">
-<tr><th width="10%">性別</th><th width="20%">名前</th><th width="25%">学科</th><th width="15%">スキル</th><th>活動可能時間帯</th><td rowspan="2"><input type="button" class="btn btn-secondary" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
+<tr><th width="10%">性別</th><th width="20%">名前</th><th width="25%">学科</th><th width="15%">スキル</th><th>活動可能時間帯</th><th>ユーザーページ</th></tr>
 </thead>
-<tr><td>女</td><td>オスカー・ワイルド</td><td>グラフィックデザイン</td><td>グラフィックデザイン</td><td>14:00 ~ 15:00</td></tr>
+<tr><td>女</td><td>オスカー・ワイルド</td><td>グラフィックデザイン</td><td>グラフィックデザイン</td><td>14:00 ~ 15:00</td><td><input type="button" class="btn btn-secondary" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
 </table>
 
 <table width="85%">
 <thead class="thead-light">
-<tr><th width="10%">性別</th><th width="20%">名前</th><th width="25%">学科</th><th width="15%">スキル</th><th>活動可能時間帯</th><td rowspan="2"><input type="button" class="btn btn-secondary" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
+<tr><th width="10%">性別</th><th width="20%">名前</th><th width="25%">学科</th><th width="15%">スキル</th><th>活動可能時間帯</th><th>ユーザーページ</th></tr>
 </thead>
-<tr><td>男</td><td>貴志祐介</td><td>SE</td><td>グラフィックデザイン</td><td>8:00 ~ 14:00</td></tr>
+<tr><td>男</td><td>貴志祐介</td><td>SE</td><td>グラフィックデザイン</td><td>8:00 ~ 14:00</td><td><input type="button" class="btn btn-secondary" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
 </table>
 
 <table width="85%">
 <thead class="thead-light">
-<tr><th width="10%">性別</th><th width="20%">名前</th><th width="25%">学科</th><th width="15%">スキル</th><th>活動可能時間帯</th><td rowspan="2"><input type="button" class="btn btn-secondary" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
+<tr><th width="10%">性別</th><th width="20%">名前</th><th width="25%">学科</th><th width="15%">スキル</th><th>活動可能時間帯</th><th>ユーザーページ</th></tr>
 </thead>
-<tr><td>女</td><td>カズオ・イシグロ</td><td>グラフィックデザイン</td><td>グラフィックデザイン</td><td>11:00 ~ 15:00</td></tr>
+<tr><td>女</td><td>カズオ・イシグロ</td><td>グラフィックデザイン</td><td>グラフィックデザイン</td><td>11:00 ~ 15:00</td><td><input type="button" class="btn btn-secondary" onclick="location.href='user.php'" value="ユーザーページ参照"></td></tr>
 </table>
 
 </body>
