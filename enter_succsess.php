@@ -4,7 +4,7 @@
 
  <div class="box4">
     <h3>ゲーム制作メンバー募集！</h3><b><font color="RED">参加申請済</font></b></a>
-    <p>募集者：神戸 電子</p>
+    <p>募集者：山崎</p>
 </div>
 <p>募集スキル：プログラミング、グラフィックデザイン、サウンドクリエイト</p>
 <p>
@@ -20,7 +20,7 @@
 <textarea rows="5" cols="50"></textarea><input type="submit" class="btn btn-light" value="コメント投稿">
 <table>
 <tr align="left"><td>
-    <p><img src="images/kobedenshi.jpg" align="left"><b>4.神戸　電子</b><br>
+    <p><img src="images/ymsk.jpg" align="left"><b>4.山崎</b><br>
     <b><font color="paple">>>なつき</font></b>　　グラフィックにも色々分野があるんですね。無知ですみません…何人くらい必要でしょうか？</p>
 </td></tr>
 <tr align="left"><td>
@@ -29,7 +29,7 @@
     おそらく2人では難しいと思います</p>
 </td></tr>
 <tr align="left"><td>
-    <p><img src="images/kobedenshi.jpg" align="left"><b>2.神戸　電子</b><br>
+    <p><img src="images/ymsk.jpg" align="left"><b>2.山崎</b><br>
     <b><font color="paple">>>KawasakI</font></b>　　そうですね！ご意見ありがとうございます、募集メンバーに追加しておきます!</p>
 </td></tr>
 
