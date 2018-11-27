@@ -1,7 +1,7 @@
 <?php 
 require_once __DIR__ . '/header.php';
  ?>
- タグ：<input type="text" value="プログラマー">　　募集スキル：<input type="text">　　プロジェクト詳細：<input type="text"><form action="project.php"><input type="submit" value="検索"></form><div class="box4">
+ タグ：<input type="text" value="プログラマー">　　募集スキル：<input type="text">　　プロジェクト詳細：<input type="text"><form action="project.php"><br><input type="submit" class="btn btn-primary" value="検索"></form><div class="box4">
     <a href="gamecreate.php"><h3>ゲーム制作メンバー募集！</h3></a>
     <p>現在ゲーム制作の為プログラム、グラフィック、サウンド担当者を募集しています！</p>
     <p>登録タグ：<b>プログラマー</b>、グラフィックデザイナー、サウンドクリエイター、ゲーム制作</p>

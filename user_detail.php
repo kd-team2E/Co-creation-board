@@ -7,15 +7,19 @@
     <meta charset="utf-8" />
 </head>
 <body>
-<table>
-    <tr><td><img src="./kobedenshi.jpg" width="100" height=100"></td><td colspan="2"></td></tr>
-    <tr><td>名前</td><td colspan="2"><input type="text" value="神戸 電子"></td></tr>
-    <tr><td>Mail</td><td colspan="2"><input type="text" value="kobe@denshi.co.jp"></td></tr>
+
+<table class="table" style="width: 80%">
+    <thead class="thead-dark">
+        <tr><th colspan="2">ユーザ情報</th></tr>
+    </thead>
+    <tr><td style="width:30%"><img src="images/kobedenshi.jpg" width="100" height=100"></td><td colspan="2"></td></tr>
+    <tr><td>名前</td><td colspan="2"><input type="text" class="form-control" value="神戸 電子"></td></tr>
+    <tr><td>Mail</td><td colspan="2"><input type="text" class="form-control" value="kobe@denshi.co.jp"></td></tr>
     <tr><td>性別</td><td colspan="2">
         男：<input type="radio" name="gender" value="男" required checked>
         女：<input type="radio" name="gender" value="女" required>
     </td></tr>
-    <tr><td>学科・コース</td><td colspan="2"><input type="text" value="ITエキスパート学科"></td></tr>
+    <tr><td>学科・コース</td><td colspan="2"><input type="text" class="form-control" value="ITエキスパート学科"></td></tr>
     <tr><td>活動可能時間帯</td><td colspan="2">
     <select>
     <?php
@@ -44,19 +48,30 @@
     </select>
     
     </td></tr>
-    <tr><td>過去成果物</td><td><input type="text" value="kobe@denshi.co.jp"></td>
-    <tr><td>アピールポイント</td><td colspan="2"><input type="text" value="色々な分野に挑戦していきたいと思っています！
+    <tr><td>過去成果物</td><td><input type="text" class="form-control" value="https://github.com/kd-team2E/Co-c..."></td>
+    <tr><td>アピールポイント</td><td colspan="2"><input type="text" class="form-control" value="色々な分野に挑戦していきたいと思っています！
 楽しく制作できるメンバーを募集しているので、
 一緒に頑張っていきましょう！"></textarea></td></tr>
 </table>
-<table>
-    <tr><td colspan="4">スキル</td></tr>
-    <tr><td colspan="4" style="font-size: 12px"><b>*スキルレベル指標<br><br>1: 触ったことがある　2: マニュアルを見ずに使える　3: 他人に教えられる</b></td></tr>
-    <tr><td>技術</td><td>スキルレベル<br>1　2　3</td><td>経験年数(年)</td><td>用途</td></tr>
-    <!-- ここから -->
+
+<table class="table" style="width: 80%">
+    <thead class="thead-dark">
+        <tr><th colspan="4">スキル</th></tr>
+    </thead>
     <tr>
-        <td><tr><td>
-        <select name='skill'>
+        <td colspan="4" style="font-size: 12px">
+            <b>*スキルレベル指標<br><br>
+            1: 触ったことがある　2: マニュアルを見ずに使える　3: 他人に教えられる</b>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 20%">技術</td>
+        <td style="width: 25%">スキルレベル<br>1　2　3</td>
+        <td style="width: 20%">経験年数(年)</td>
+        <td>用途</td>
+    </tr>
+    <tr><td>
+        <select name='skill' style="width: 100%">
             <option value=''>
             <optgroup label='プログラマ'>
                 <option value='IT' selected>C
@@ -100,11 +115,11 @@
             }
         ?>        
         </select></td>
-        <td><input type=text" value="プロンプト上で動くゲーム"></td>
+        <td><input type=text" class="form-control" value="プロンプト上で動くゲーム"></td>
     </tr>
     <tr>
-        <td><tr><td>
-        <select name='skill'>
+        <td>
+        <select name='skill' style="width: 100%">
             <option value=''>
             <optgroup label='プログラマ'>
                 <option value='IT'>C
@@ -148,7 +163,7 @@
             }
         ?>        
         </select></td>
-        <td><input type=text" value="Webアプリケーション"></td>
+        <td><input type=text" class="form-control" value="Webアプリケーション"></td>
     </tr>
 </table>
 <?php
@@ -156,7 +171,7 @@
         echo "<p>編集しました</p>";
     }else{
         echo '<form method="post" action="user_detail.php">
-                <input type="submit" name="s" value="編集を確定">
+                <input type="submit" name="s" class="btn btn-primary" value="編集を確定">
             </form>';
     }
 ?>
