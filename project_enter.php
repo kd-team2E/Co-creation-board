@@ -6,5 +6,5 @@
  <p>希望する役割、参加申請メッセージを入力してください</p>
  <textarea rows="5" cols="50"></textarea><br>
  <form action="enter_succsess.php">
- <input type="submit" class="btn btn-primary" value="参加申請">
+ <input type="submit" class="btn btn-warning" value="参加申請">
 </form>
