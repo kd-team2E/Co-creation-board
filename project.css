@@ -53,10 +53,10 @@ body {
 .box4{
     padding: 8px 19px;
     margin: 2em 0;
-    color: #2c2c2f;
-    background: #cde4ff;
-    border-top: solid 5px #5989cf;
-    border-bottom: solid 5px #5989cf;
+    color: #000000;
+    background: #FFEEAA;
+    border-top: solid 5px #ffcc33;
+    border-bottom: solid 5px #FFCC33;
 }
 
 .box4 p {
@@ -75,3 +75,4 @@ body {
     margin: 0; 
     padding: 0;
 }
+
