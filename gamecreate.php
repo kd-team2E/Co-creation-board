@@ -4,7 +4,7 @@
 
  <div class="box4">
     <h3>ゲーム制作メンバー募集！</h3>
-    <a href="project_enter.php"><form action="project_enter.php"><input type="submit" class="btn btn-primary" value="参加する"></form></font></a>
+    <a href="project_enter.php"><form action="project_enter.php"><input type="submit" class="btn btn-warning" value="参加する"></form></font></a>
     <p>募集者：山崎</p>
 </div>
 <p>募集スキル：プログラミング、グラフィックデザイン、サウンドクリエイト</p>

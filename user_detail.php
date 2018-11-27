@@ -171,7 +171,7 @@
         echo "<p>編集しました</p>";
     }else{
         echo '<form method="post" action="user_detail.php">
-                <input type="submit" name="s" class="btn btn-primary" value="編集を確定">
+                <input type="submit" name="s" class="btn btn-warning" value="編集を確定">
             </form>';
     }
 ?>
